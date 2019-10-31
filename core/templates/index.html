@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index Page</title>
+</head>
+
+<body>
+<h1>Hello World Index!</h1>
+<h2> Musics </h2>
+<ul>
+{% for music in musics %}
+    <li>{{ music }}</li>
+{% endfor %}
+</ul>
+
+<h2> Singers </h2>
+<ul>
+{% for singer in singers %}
+    <li>{{ singer }}</li>
+{% endfor %}
+</ul>
+
+
+
+<h2> Genres</h2>
+<ul>
+{% for genre in genres %}
+    <li>{{ genre }}</li>
+{% endfor %}
+</ul>
+
+</body>
+
+</html>
